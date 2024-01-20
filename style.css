@@ -1,0 +1,173 @@
+
+body{
+    background-image: url('./img/bk.png');
+    min-width: 100vh;
+    /* display: flex; */
+    background-size: cover;
+    color: #3e3e3e;
+}
+
+
+#header{
+    display: inline;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: #3e3e3e; */
+}
+li{
+    display: inline;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+
+li:hover{
+    text-shadow: 5px 2px 5px pink;
+}
+
+#header>img{
+        height: 100px;
+        width: 150px;
+}
+
+#header>h1{
+    margin-left: -800px;
+}
+
+#home{
+    margin-top: 100px;
+    padding-left: 100px;
+
+}
+
+
+#home>h3{
+    font-size: 45px;
+    font-weight: 600;
+    /* padding-left: 40px; */
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
+}
+
+#home>h1{
+    font-size: 70px;
+}
+
+
+
+
+
+#Lorem{
+    margin-top: 60px;
+    padding-left: 100px;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+
+#purple{
+    float: right;
+    margin-top: -250px;
+    padding-right: 90px;
+    
+}
+
+
+#btn{
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+#btn>input{
+    width: 150px;
+    border-radius: 15px;
+    height: 40px;
+    border: transparent;
+    box-shadow: 10px 10px 10px lightblue;
+    color: rgb(254, 96, 122);
+    font-weight: bold;
+}
+
+
+#btn>input:hover{
+    background-color:rgb(252, 218, 224);
+}
+
+del,ins{
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#cards{
+    margin-top: 100px;
+    justify-content: space-between;
+    display: inline ;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#cards>div{
+    height: 450px;
+    width: 500px;
+}
+
+
+#cards> div >img{
+    height: 200px;
+    width: 250px;
+    padding: 10px 5px 0px 5px;
+}
+
+#cards>a{
+    display: block;
+    align-items: center;
+}
+
+
+footer{
+    margin-top: 50px ;
+    background-color: aliceblue;
+}
+
+
+#contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
